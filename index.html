@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==================FONTAWESOME LINK================== -->
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <!--================== BOOTSTRAP LINK ================== -->
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <!--================== MAIN STYLE SHEET ================== -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Document</title>
+</head>
+<body class="">
+    
+<div class="header">
+        <nav class="navbar navbar-expand-lg bg-transparent mt-3">
+            <div class="container">
+              <a class="navbar-brand text-white d-flex align-items-center" href="#">
+                <img src="images/logo.png" class="h-100 me-2" alt="">
+                <div>
+                    <h2 class="fs-5">Weather</h2>
+                    <h5 class="text-white-50">Tagline goes here</h5>
+                </div>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
+                  <li class="nav-item">
+                    <a class="btn btn-outline-primary px-4 py-0 rounded-pill ms-3 active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="btn btn-outline-primary px-4 py-0 ms-3 rounded-pill" href="#">News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="btn btn-outline-primary px-4 py-0 ms-3 rounded-pill" href="#">Live Cameras</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="btn btn-outline-primary px-4 py-0 ms-3 rounded-pill" href="#">Photos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="btn btn-outline-primary px-4 py-0 ms-3 rounded-pill" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+</div>
+
+<div class="home">
+    <div class="search-bar p-5">
+
+        <div class="container">
+            <div class=" position-relative">
+                <input type="text" class="form-control rounded-5 p-3 bg-dark mb-5 text-white" id="searchBar" placeholder="Find Your Location">
+                <button class="btn btn-primary position-absolute find-button rounded-5 ">Find</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="temp-status">
+        <div class="container">
+            <div class="row  py-5 g-0 ">
+                <div class="col-xl-4 col-md-6 col-12">
+                    <div class="card text-bg-dark border-0">
+                        <div class="card-header card-header-color d-flex justify-content-between ">
+                            <h6 class="day">Wednesday</h6>
+                            <h6 class="day-month">12June</h6>
+                        </div>
+                        <div class="card-body card-body-color p-4">
+                            <h5 class="card-title mb-3 main">Cairo</h5>
+                            <h3 class="temp mb-5 fw-bolder text-white d-flex">
+                                <p class="main">37.3</p>
+                                <sup class="position-static">o</sup>
+                                    <p>C</p>
+                            </h3>
+                            <img src="images/113.png" class="w-25 main" alt="">
+                            <p class="text-custom">Sunny</p>
+                            <div class="more-info d-flex justify-content-around align-items-center">
+                                    <figure class="d-flex">
+                                        <img src="images/icon-umberella.png" class="me-2" alt="" >
+                                        <figcaption>20%</figcaption>
+                                    </figure>
+                                    <figure class="d-flex align-items-center">
+                                        <img src="images/icon-wind.png" class="me-2" alt="wind speed" >
+                                        <figcaption class="w-75 wind-main">18km/h</figcaption>
+                                    </figure>
+                                    <figure class="d-flex align-items-center">
+                                        <img src="images/icon-compass.png" class="me-2" alt="" >
+                                        <figcaption class=" wind-direction">East</figcaption>
+                                    </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 two col-md-6 col-12">
+                    <div class="card text-bg-dark h-100">
+                        <div class="card-header card-header-color2 d-flex justify-content-center ">
+                            <h6 class="day">Thursday</h6>
+                        </div>
+                        <div class="card-body card-body-color2 p-4">
+                            <img src="images/113.png" class="main mb-4 mt-5 d-block mx-auto" alt="">
+                            <h3 class="temp fs-3 mb-2 fw-bolder text-white d-flex justify-content-center">
+                                <p class="main m-0">37.3</p>
+                                <sup class="position-static">o</sup>
+                                <div class="celsius">
+                                    C
+                                </div>
+                            </h3>
+                            <h4 class="temp fs-5 mb-4 text-white-50 d-flex justify-content-center">
+                                <p class="secondary m-0">27.4</p>
+                                <sup class="position-static">o</sup>
+                                <div class="celsius">
+                                    C
+                                </div>
+                            </h4>
+                            <p class="text-custom text-center">Sunny</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 three col-md-6 col-12">
+                    <div class="card text-bg-dark h-100">
+                        <div class="card-header card-header-color d-flex justify-content-center ">
+                            <h6 class="day">Friday</h6>
+                        </div>
+                        <div class="card-body card-body-color p-4">
+                            <img src="images/113.png" class="main mb-4 mt-5 d-block mx-auto" alt="">
+                            <h3 class="temp fs-3 mb-2 fw-bolder text-white d-flex justify-content-center">
+                                <p class="main m-0">30.3</p>
+                                <sup class="position-static">o</sup>
+                                <div class="celsius">
+                                    C
+                                </div>
+                            </h3>
+                            <h4 class="temp fs-5 mb-4 text-white-50 d-flex justify-content-center">
+                                <p class="secondary m-0">20.4</p>
+                                <sup class="position-static">o</sup>
+                                <div class="celsius">
+                                    C
+                                </div>
+                            </h4>
+                            <p class="text-custom text-center">Sunny</p>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer class="p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="position-relative">
+                        <input type="text" class="form-control rounded-5 p-3 bg-dark mb-4 text-white" id="searchBar" placeholder="Enter your email to subscribe...">
+                        <button class="btn btn-primary px-4 position-absolute find-button rounded-5">Subscribe</button>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <ul class="social-list d-flex w-100 justify-content-center list-unstyled">
+                        <li class="ms-2">
+                            <a href="#" class="d-flex justify-content-center align-items-center text-decoration-none p-1 rounded-circle">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="ms-2" >
+                            <a href="#" class="d-flex justify-content-center align-items-center text-decoration-none p-1 rounded-circle">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="ms-2">
+                            <a href="#" class="d-flex justify-content-center align-items-center text-decoration-none p-1 rounded-circle">
+                                <i class="fa-brands fa-google-plus-g"></i>
+                            </a>
+                        </li>
+                        <li class="ms-2">
+                            <a href="#" class="d-flex justify-content-center align-items-center text-decoration-none p-1 rounded-circle">
+                                <i class="fa-brands fa-pinterest"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            <p class="text-white">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+    </footer>
+
+    <!--==================BOOTSTRAP JS ================== -->
+    <script src="JS/bootstrap.bundle.js"></script>
+    <!--==================MAIN JS FILE================== -->
+    <script src="JS/index.js"></script>
+</body>
+</html>
